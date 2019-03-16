@@ -1,0 +1,39 @@
+/* .myiframe {
+	position: relative;
+	height: 0;
+	 overflow: hidden; 
+}
+
+.myiframe -16x9{
+	padding-bottom: 56.25%;
+	
+}
+
+.myiframe -4x3 {
+	padding-bottom: 75%;
+}
+
+.myiframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} */
+
+.myiframe{
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height:0;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	border: solid 1px;
+}
+.myiframe iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
